@@ -1,0 +1,7 @@
+{
+  "name": "Ventr",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

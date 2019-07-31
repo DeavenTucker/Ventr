@@ -1,0 +1,55 @@
+ion-content {
+  --ion-background-color: #99D19C;
+
+  
+}
+
+.background {
+  margin: 0px;
+  width: 100%;
+  border: 0px solid #73AD21;
+  height: 100%;
+}
+
+.ion-padding{
+  height: 70px;
+  margin-top: 116px;
+  padding-right: 49px;
+  padding-left: 49px;
+  margin-bottom: 62px;
+}
+.username{
+  display: block;
+margin-left: 24px;
+margin-right: 24px;
+height: 48px;
+border-radius: 100px;
+margin-bottom: 34px;
+}
+
+.password {
+  display: block;
+margin-left: 24px;
+margin-right: 24px;
+height: 48px;
+border-radius: 100px;
+margin-bottom: 21px;
+}
+
+.signup{
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+display: block;
+margin-bottom: 91px;
+border: none;
+}
+
+.login{
+  display: block;
+  margin-left: 89px;
+  margin-right: 89px;
+  height: 56px;
+  border-radius: 20px;
+  margin-bottom: 79px;
+}
