@@ -6,17 +6,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { BuildPage } from './build.page';
-
-import { CharacterChatPage } from '../character-chat/character-chat.page';
+import { AnimationPage } from '../animation/animation.page';
 import { WelcomePage } from '../welcome/welcome.page';
+import { TalkPage } from '../talk/talk.page'
 
 const routes: Routes = [
   {
     path: '',
     component: BuildPage
   },
-  { path: 'CharacterChatPage', loadChildren: '../character-chat/character-chat.page' },
-  { path: 'WelcomePage', loadChildren: '../welcome/welcome.page' },
+  { path: 'AnimationPage', loadChildren: '../animation/animation.page' },
+  { path: 'TalkPage', loadChildren: '../talk/talk.page' }
 ];
 
 @NgModule({

@@ -15,8 +15,11 @@
 }
 
 .customButton {
-    width: 25%;
-    height: 100%;
+    width: 149px;
+    height: 39px;
+    text-align: center;
+    color: black;
+
 }
 
 ion-col {
@@ -518,7 +521,7 @@ ion-col {
 .eyes {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 246px;
 }
 
 #eyes1 {
@@ -597,7 +600,7 @@ ion-icon {
 
 .options {
     width: 100%;
-    height: 300px;
+    height: 200px;
 }
 
 #skinToneButton {
@@ -702,6 +705,29 @@ ion-icon {
     margin: auto;
 }
 
-.btn{
+.card {
     background-color: #5CCDB6;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 58px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.content {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hex {
+    background-color: #5CCDB6;
+}
+
+.icon{
+color: white;
 }

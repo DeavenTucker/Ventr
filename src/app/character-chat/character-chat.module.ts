@@ -6,12 +6,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { CharacterChatPage } from './character-chat.page';
+import { TalkPage } from '../talk/talk.page';
 
 const routes: Routes = [
   {
     path: '',
     component: CharacterChatPage
   },
+  { path: 'TalkPage', loadChildren: '../talk/talk.page' },
 ];
 
 @NgModule({

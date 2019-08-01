@@ -12,13 +12,13 @@ export class AppComponent {
   public appPages = [
     {
       title: 'Message',
-      url: '/talk',
+      url: '/character-chat',
       icon: 'mail',
       color: 'red',
     },
     {
       title: 'Customize',
-      url: '/talk',
+      url: '/build',
       icon: 'person',
       color: 'red',
     },

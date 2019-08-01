@@ -1,15 +1,18 @@
-<ion-header>
+<ion-header class="bg">
+    <ion-toolbar color="secondary">
+      <ion-buttons slot="start" class="icon">
+        <ion-menu-button color="primary"></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+        
+      </ion-title>
+    </ion-toolbar>
   </ion-header>
   
-  <ion-content>
-
-          <video width="320" height="240" controls>
-            <source src="../../assets/vid.mp4" type="video/mp4">
-          </video>
-          
-<ion-button full (click)="startVideo()">Start Video</ion-button>
-<ion-button full (click)="startAudio()">Start Audio</ion-button>
-<ion-button full (click)="stopVideo()" color="danger">Stop Video</ion-button>
-
+  <ion-content class="bg">
+      <video width="100%" controls>
+          <source src="../../assets/vid.mp4" type="video/mp4" class="vid">
+        </video>
+          <ion-button routerLink="../talk" routerDirection="root" class="customButton" shape="round"><p class="words">Record A Response</p>  </ion-button>
   </ion-content>
   

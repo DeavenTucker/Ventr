@@ -6,12 +6,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { RecordPage } from './record.page';
+import { CharacterChatPage } from '../character-chat/character-chat.page';
 
 const routes: Routes = [
   {
     path: '',
     component: RecordPage
-  }
+  },
+  { path: 'CharacterChatPage', loadChildren: '../character-chat/character-chat.page' },
 ];
 
 @NgModule({

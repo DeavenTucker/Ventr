@@ -6,12 +6,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { TalkPage } from './talk.page';
+import { RecordPage } from '../record/record.page'
 
 const routes: Routes = [
   {
     path: '',
     component: TalkPage
-  }
+  },
+  { path: 'RecordPage', loadChildren: '../record/record.page' },
 ];
 
 @NgModule({

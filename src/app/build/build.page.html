@@ -164,7 +164,7 @@
         <img src="../../assets/hair/hair8.png">
       </div>
     </div>
-    <div class="eyes">
+    <div class="eyes" height="225px">
       <div id="eyes1">
         <img height="40%" width="40%" src="../../assets/eyes/eyes1.png">
       </div>
@@ -193,17 +193,14 @@
   </div>
   <div class="customizable">
     <ion-row class="row">
-      <ion-col class="customButton" (click)="showType('skinToneButton')">
-        <ion-icon name="color-palette"></ion-icon>
+      <ion-col (click)="showType('faceButton')" class="hex">
+        <ion-icon name="person" class="icon"></ion-icon>
       </ion-col>
-      <ion-col class="customButton" (click)="showType('faceButton')">
-        <ion-icon name="person"></ion-icon>
+      <ion-col (click)="showType('hairButton')" class="hex">
+        <ion-icon name="hand" class="icon"></ion-icon>
       </ion-col>
-      <ion-col class="customButton" (click)="showType('hairButton')">
-        <ion-icon name="hand"></ion-icon>
-      </ion-col>
-      <ion-col class="customButton" (click)="showType('eyeButton')">
-        <ion-icon name="eye"></ion-icon>
+      <ion-col (click)="showType('eyeButton')" class="hex">
+        <ion-icon name="eye" class="icon"></ion-icon>
       </ion-col>
     </ion-row>
   </div>
@@ -432,10 +429,12 @@
       </ion-row>
     </div>
   </div>
-  <ion-card>
-    <ion-card-content>
-      <ion-button routerLink="/welcome" routerDirectio="root" class="btn">Back</ion-button>
-      <ion-button routerLink="/character-chat" routerDirectio="root" class="btn"> Continue</ion-button>
+  <ion-card class="card">
+    <ion-card-content class="content">
+      <div>
+        <ion-button routerLink="../welcome" routerDirection="root" class="customButton"> Back </ion-button>
+        <ion-button routerLink="../talk" routerDirection="root" class="customButton"> Continue </ion-button>
+      </div>
     </ion-card-content>
   </ion-card>
 </ion-content>
